@@ -179,6 +179,14 @@
 				margin-bottom: 2em;
 			}
 
+			.image.workshops img
+			{
+
+				display: block;
+				width: 100%;
+				margin-bottom: 2em;
+			}
+
 			.image.left
 			{
 				float: left;
@@ -801,7 +809,7 @@
 	#header
 	{
 		position: relative;
-		background: url(../images/header.jpg) no-repeat bottom center;
+		background: url(../images/tools-header.jpg) no-repeat bottom center;
 		background-attachment: fixed;
 		background-size: cover;
 		text-align: center;
@@ -815,7 +823,7 @@
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: rgba(64,64,64,0.125);
+			background: rgba(64,64,64,0.5);
 		}
 
 /*********************************************************************************/
@@ -1031,7 +1039,7 @@
 	{
 		position: relative;
 		text-align: center;
-		background: url(../images/header.jpg) no-repeat center center;
+		background: url(../images/tools-header.jpg) no-repeat center center;
 		background-attachment: fixed;
 		background-size: cover;
 	}
